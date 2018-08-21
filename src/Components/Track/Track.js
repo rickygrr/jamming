@@ -35,4 +35,6 @@ class Track extends Component {
             </div>
         );
     }
-}
+};
+
+export default Track;

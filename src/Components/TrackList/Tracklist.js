@@ -14,11 +14,12 @@ class TrackList extends Component {
                             onAdd={this.props.onAdd}
                             onRemove={this.props.onRemove}
                             isRemoval={this.props.isRemoval}
+                        />
                     })
                 }
             </div>
         );
     }
-}
+};
 
 export default TrackList;

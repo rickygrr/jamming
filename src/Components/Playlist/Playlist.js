@@ -16,7 +16,8 @@ class Playlist extends Component {
         return (
             <div className="Playlist">
               <input defaultValue={'New Playlist'} onChange={this.handleNameChange} />
-              <TrackList tracks={this.props.playlistTracks}
+              <TrackList
+                  tracks={this.props.playlistTracks}
                   onRemove={this.props.onRemove}
                   isRemoval={true}
                   />
@@ -24,6 +25,6 @@ class Playlist extends Component {
             </div>
         );
     }
-}
+};
 
 export default Playlist;

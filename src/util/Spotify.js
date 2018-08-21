@@ -48,7 +48,7 @@ const Spotify = {
         })
     },
     savePlaylist(name, trackURIS) {
-        if (!name || !trackUris.length) {
+        if (!name || !trackURIS.length) {
           return;
         }
         const accessToken = Spotify.getAccessToken();
@@ -74,7 +74,6 @@ const Spotify = {
             });
         });
     }
-
 };
 
 export default Spotify;
