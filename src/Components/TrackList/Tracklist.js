@@ -11,6 +11,7 @@ class TrackList extends Component {
                         return <Track
                             track={track}
                             key={track.id}
+                            onAdd={this.props.onAdd}
                     })
                 }
             </div>
